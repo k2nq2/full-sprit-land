@@ -1,0 +1,169 @@
+header {
+    padding-bottom: 3.2rem;
+    padding-top: 33.3rem;
+    background-image: url(../../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 79.7rem;
+}
+
+    .header-title{
+      font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 92%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    }
+    .header-upperprice-text{
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 106%;
+    text-align: center;
+    color: #fff;
+    margin-top: 12.5rem;
+    }
+    .header-price-wrap{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 5.1rem;
+    }
+    .price-new{
+        font-family: var(--font-family);
+    font-weight: 300;
+    width: 16.5rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/price-new-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-top: 1.2rem;
+    }
+    .price-new p{
+         font-size: 5rem;
+         font-weight: 300;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d4837;
+    }
+    .price-old{
+        width: 12rem;
+        height: 7rem;
+        background-color: #202020;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    .price-old p{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    }
+    .price-old span{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    }
+    .header-btn{
+        width: 37rem;
+        height: 8.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 90%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #4d4837;
+        background-image: url(../../images/btn-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
+        margin-top: 1rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        }
+    .header-timer-text{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 106%;
+        text-align: center;
+        color: #fff;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .timer{
+        width: 19.6rem;
+        height: 3.8rem;
+        background: #fff;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+    }
+    #countdown{
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    }
+    .timer-wrap{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.9rem;
+    }
+    .timer-red-box{
+        height: 3.8rem;
+        width: 9.9rem;
+        background-color: #E93519;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 87%;
+        color: #fff;
+    }
+    .header-under-timer{
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-align: center;
+color: #fff;
+margin-top: 0.9rem;
+    }

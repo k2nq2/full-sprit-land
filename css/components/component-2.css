@@ -1,0 +1,70 @@
+.c2 {
+
+}
+.c2-wrapper{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    margin-top: 5rem;
+}
+.c2-item{
+    width: 18.5rem;
+    height: 18.5rem;
+    background-image: url(../../images/c2-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2.77rem 0rem 0rem 2.34rem;
+}
+.c2-item:nth-child(2){
+    background-image: url(../../images/c2-2.png);
+}
+.c2-item p{
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 2.5rem;
+line-height: 100%;
+text-transform: uppercase;
+color: #fff;
+}
+.c2-circle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 34%;
+    width: 6rem;
+    height: 6rem;
+    background-image: url(../../images/c2-circle.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-access{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.c2-access p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 2.5rem;
+line-height: 220%;
+text-align: center;
+color: #fff;
+}
+.c2-guarantee{
+    width: 37.9rem;
+    height: 12.5rem;
+    padding: 3.6rem 3.6rem 3.9rem 11rem;
+    background-image: url(../../images/c2-guarantee.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 2.6rem;
+line-height: 108%;
+text-transform: uppercase;
+color: #fff;
+margin-top: 3rem;
+}
