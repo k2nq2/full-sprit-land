@@ -152,11 +152,12 @@ iframe{
 .slider2 {
     position: relative;
     transition: transform 0.5s ease-in-out;
+    width: 1000rem;
 }
 .slides2 {
     display: flex;
     gap: 1rem;
-    width: 100%;
+    width: 39rem;
     transition: transform 0.5s ease-in-out;
 }
 .slider-wrapper2{
